@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="umacron" format="2">
-  <advance width="542"/>
+  <advance width="594"/>
   <unicode hex="016B"/>
   <anchor x="277" y="0" name="bottom"/>
   <anchor x="479" y="0" name="ogonek"/>

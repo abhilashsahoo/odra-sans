@@ -42,7 +42,7 @@
     <key>openTypeHheaLineGap</key>
     <integer>0</integer>
     <key>openTypeNameDesigner</key>
-    <string>Odra Sans Project Authors (based on Figtree by Erik Kennedy)</string>
+    <string>Abhilash Sahoo</string>
     <key>openTypeNameLicense</key>
     <string>This Font Software is licensed under the SIL Open Font License, Version 1.1.</string>
     <key>openTypeNameLicenseURL</key>
@@ -104,7 +104,7 @@
     <key>versionMajor</key>
     <integer>1</integer>
     <key>versionMinor</key>
-    <integer>0</integer>
+    <integer>200</integer>
     <key>xHeight</key>
     <integer>520</integer>
   </dict>

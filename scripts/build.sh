@@ -4,6 +4,7 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 FM="fontmake --filter DecomposeTransformedComponentsFilter --filter FlattenComponentsFilter"
 rm -rf fonts/variable fonts/ttf fonts/webfonts sources/instance_ufos
+python3 scripts/oblique.py
 mkdir -p fonts/variable fonts/ttf fonts/webfonts
 $FM -m sources/OdraSans.designspace        -o variable --output-path "fonts/variable/OdraSans[wght].ttf"
 $FM -m sources/OdraSans-Italic.designspace -o variable --output-path "fonts/variable/OdraSans-Italic[wght].ttf"

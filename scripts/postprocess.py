@@ -10,7 +10,7 @@ for p in glob.glob('fonts/variable/*.ttf')+glob.glob('fonts/ttf/*.ttf'):
     for g in LEG:
         if cd.get(g)==3: cd[g]=1
     if 'Italic[' in p:
-        for i,v in ((1,'Odra Sans Light'),(2,'Italic'),(3,'1.000;UKWN;OdraSans-LightItalic'),(4,'Odra Sans Light Italic'),(6,'OdraSans-LightItalic'),(16,'Odra Sans'),(17,'Light Italic')):
+        for i,v in ((1,'Odra Sans Light'),(2,'Italic'),(3,'1.200;UKWN;OdraSans-LightItalic'),(4,'Odra Sans Light Italic'),(6,'OdraSans-LightItalic'),(16,'Odra Sans'),(17,'Light Italic')):
             n.setName(v,i,3,1,0x409)
     f.save(p)
 # static italics: fix style-linking bits and RIBBI names

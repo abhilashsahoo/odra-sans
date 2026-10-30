@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="atilde" format="2">
-  <advance width="592"/>
+  <advance width="673"/>
   <unicode hex="00E3"/>
   <anchor x="569" y="0" name="ogonek"/>
   <anchor x="406" y="707" name="top"/>
