@@ -1,0 +1,6 @@
+fontmake==3.12.2
+gftools==0.10.7
+fontbakery==1.1.0
+fonttools[woff]==4.68.0
+brotli==1.2.1
+ttfautohint-py==0.6.1

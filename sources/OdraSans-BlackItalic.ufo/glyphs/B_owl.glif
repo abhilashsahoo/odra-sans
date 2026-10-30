@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Bowl" format="2">
+  <advance width="573"/>
+  <outline>
+    <contour>
+      <point x="229" y="-12" type="curve" smooth="yes"/>
+      <point x="353" y="-12"/>
+      <point x="427" y="85"/>
+      <point x="455" y="250" type="curve" smooth="yes"/>
+      <point x="482" y="415"/>
+      <point x="441" y="512"/>
+      <point x="317" y="512" type="curve" smooth="yes"/>
+      <point x="175" y="512"/>
+      <point x="74" y="415"/>
+      <point x="47" y="250" type="curve" smooth="yes"/>
+      <point x="19" y="85"/>
+      <point x="87" y="-12"/>
+    </contour>
+    <contour>
+      <point x="305" y="154" type="curve" smooth="yes"/>
+      <point x="256" y="154"/>
+      <point x="226" y="194"/>
+      <point x="235" y="250" type="curve" smooth="yes"/>
+      <point x="245" y="306"/>
+      <point x="287" y="345"/>
+      <point x="336" y="345" type="curve" smooth="yes"/>
+      <point x="387" y="345"/>
+      <point x="416" y="306"/>
+      <point x="407" y="250" type="curve" smooth="yes"/>
+      <point x="397" y="194"/>
+      <point x="355" y="154"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025/04/02 12:51:10</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

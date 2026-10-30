@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="one.numr" format="2">
+  <advance width="267"/>
+  <outline>
+    <contour>
+      <point x="101" y="280" type="line"/>
+      <point x="217" y="280" type="line"/>
+      <point x="217" y="700" type="line"/>
+      <point x="114" y="700" type="line"/>
+      <point x="101" y="634" type="line"/>
+    </contour>
+    <contour>
+      <point x="19" y="535" type="line"/>
+      <point x="77" y="566"/>
+      <point x="135" y="597"/>
+      <point x="193" y="628" type="curve"/>
+      <point x="114" y="701" type="line"/>
+      <point x="82" y="683"/>
+      <point x="51" y="665"/>
+      <point x="19" y="647" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>height</key>
+        <integer>60</integer>
+        <key>verticalShift</key>
+        <integer>280</integer>
+        <key>weight</key>
+        <integer>-300</integer>
+        <key>width</key>
+        <integer>60</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=one*.7</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=one*.7</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025/04/02 12:51:10</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

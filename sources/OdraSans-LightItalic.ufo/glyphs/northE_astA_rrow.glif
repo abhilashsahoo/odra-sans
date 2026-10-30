@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="northEastArrow" format="2">
+  <advance width="712"/>
+  <unicode hex="2197"/>
+  <outline>
+    <contour>
+      <point x="164" y="177" type="line"/>
+      <point x="702" y="638" type="line"/>
+      <point x="668" y="678" type="line"/>
+      <point x="130" y="217" type="line"/>
+    </contour>
+    <contour>
+      <point x="330" y="640" type="line"/>
+      <point x="697" y="640" type="line"/>
+      <point x="735" y="700" type="line"/>
+      <point x="340" y="700" type="line"/>
+    </contour>
+    <contour>
+      <point x="609" y="305" type="line"/>
+      <point x="669" y="305" type="line"/>
+      <point x="735" y="700" type="line"/>
+      <point x="671" y="673" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>I</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>I</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025/04/02 12:51:10</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

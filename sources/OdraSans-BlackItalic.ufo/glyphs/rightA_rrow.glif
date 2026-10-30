@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rightArrow" format="2">
+  <advance width="746"/>
+  <unicode hex="2192"/>
+  <outline>
+    <contour>
+      <point x="597" y="217" type="line"/>
+      <point x="747" y="297" type="line"/>
+      <point x="527" y="592" type="line"/>
+      <point x="401" y="486" type="line"/>
+    </contour>
+    <contour>
+      <point x="91" y="223" type="line"/>
+      <point x="641" y="223" type="line"/>
+      <point x="666" y="373" type="line"/>
+      <point x="116" y="373" type="line"/>
+    </contour>
+    <contour>
+      <point x="423" y="8" type="line"/>
+      <point x="747" y="297" type="line"/>
+      <point x="626" y="381" type="line"/>
+      <point x="335" y="115" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025/04/02 12:51:10</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

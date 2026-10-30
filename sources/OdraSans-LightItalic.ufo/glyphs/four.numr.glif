@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="four.numr" format="2">
+  <advance width="379"/>
+  <guideline x="9" y="280" angle="0"/>
+  <outline>
+    <contour>
+      <point x="303" y="280" type="line"/>
+      <point x="363" y="280" type="line"/>
+      <point x="379" y="374" type="line"/>
+      <point x="427" y="374" type="line"/>
+      <point x="436" y="429" type="line"/>
+      <point x="388" y="429" type="line"/>
+      <point x="433" y="700" type="line"/>
+      <point x="373" y="700" type="line"/>
+      <point x="328" y="429" type="line"/>
+      <point x="179" y="429" type="line"/>
+      <point x="319" y="678" type="line"/>
+      <point x="269" y="700" type="line"/>
+      <point x="85" y="374" type="line"/>
+      <point x="319" y="374" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>height</key>
+        <integer>60</integer>
+        <key>verticalShift</key>
+        <integer>280</integer>
+        <key>width</key>
+        <integer>60</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=four*.7</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=four*.7</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025/04/02 12:51:10</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

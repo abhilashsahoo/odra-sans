@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ampersand" format="2">
+  <image fileName="../../../Desktop/Screen Shot 2021-05-24 at 9.37.48 AM.png" xScale="4.9751" yScale="4.9751" xOffset="20" yOffset="-37"/>
+  <outline>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.backgroundImage.alpha</key>
+      <integer>50</integer>
+      <key>com.schriftgestaltung.backgroundImage.crop</key>
+      <array>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+      </array>
+      <key>com.schriftgestaltung.backgroundImage.locked</key>
+      <false/>
+    </dict>
+  </lib>
+</glyph>

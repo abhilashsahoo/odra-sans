@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Lslash" format="2">
+  <advance width="501"/>
+  <unicode hex="0141"/>
+  <guideline x="132" y="700" angle="90"/>
+  <anchor x="278" y="0" name="bottom"/>
+  <anchor x="251" y="350" name="center"/>
+  <anchor x="126" y="670" name="top"/>
+  <anchor x="198" y="759" name="top_caron"/>
+  <anchor x="487" y="700" name="topright"/>
+  <outline>
+    <contour>
+      <point x="-2" y="266" type="line"/>
+      <point x="276" y="390" type="line"/>
+      <point x="276" y="448" type="line"/>
+      <point x="-2" y="324" type="line"/>
+    </contour>
+    <component base="L"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025/04/02 12:51:10</string>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

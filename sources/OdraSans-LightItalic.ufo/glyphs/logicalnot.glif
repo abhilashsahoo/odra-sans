@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="logicalnot" format="2">
+  <advance width="608"/>
+  <unicode hex="00AC"/>
+  <outline>
+    <contour>
+      <point x="174" y="299" type="line"/>
+      <point x="534" y="299" type="line"/>
+      <point x="544" y="356" type="line"/>
+      <point x="184" y="356" type="line"/>
+    </contour>
+    <contour>
+      <point x="461" y="201" type="line"/>
+      <point x="518" y="201" type="line"/>
+      <point x="544" y="356" type="line"/>
+      <point x="487" y="356" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025/04/02 12:51:10</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

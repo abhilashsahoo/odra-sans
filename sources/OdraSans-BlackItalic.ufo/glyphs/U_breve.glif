@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ubreve" format="2">
+  <advance width="688"/>
+  <unicode hex="016C"/>
+  <anchor x="348" y="0" name="bottom"/>
+  <anchor x="563" y="50" name="ogonek"/>
+  <anchor x="467" y="700" name="top"/>
+  <anchor x="787" y="700" name="topright"/>
+  <outline>
+    <component base="U"/>
+    <component base="brevecomb" xOffset="175" yOffset="200"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025/04/02 12:51:10</string>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

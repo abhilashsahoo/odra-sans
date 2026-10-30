@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="six" format="2">
+  <outline>
+    <contour>
+      <point x="89" y="217" type="move"/>
+      <point x="68" y="91"/>
+      <point x="167" y="-16"/>
+      <point x="306" y="-16" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

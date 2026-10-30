@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Aring" format="2">
+  <outline>
+    <contour>
+      <point x="410" y="756" type="line"/>
+      <point x="486" y="756" type="line"/>
+      <point x="366" y="882" type="line"/>
+      <point x="282" y="882" type="line"/>
+      <point x="282" y="881" type="line"/>
+    </contour>
+    <contour>
+      <point x="161" y="756" type="line"/>
+      <point x="237" y="756" type="line"/>
+      <point x="365" y="881" type="line"/>
+      <point x="365" y="882" type="line"/>
+      <point x="281" y="882" type="line"/>
+    </contour>
+  </outline>
+</glyph>

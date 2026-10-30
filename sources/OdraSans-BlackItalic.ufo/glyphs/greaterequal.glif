@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="greaterequal" format="2">
+  <advance width="628"/>
+  <unicode hex="2265"/>
+  <outline>
+    <contour>
+      <point x="114" y="0" type="line"/>
+      <point x="515" y="0" type="line"/>
+      <point x="535" y="120" type="line"/>
+      <point x="134" y="120" type="line"/>
+    </contour>
+    <component base="greater" yScale="0.9" xOffset="15" yOffset="89"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=greater</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=greater</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025/04/02 12:51:10</string>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

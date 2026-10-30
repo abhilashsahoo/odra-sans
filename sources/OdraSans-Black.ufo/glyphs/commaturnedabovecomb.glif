@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="commaturnedabovecomb" format="2">
+  <unicode hex="0312"/>
+  <guideline x="222" y="565" angle="0"/>
+  <guideline x="11" y="712" angle="0"/>
+  <anchor x="103" y="500" name="_top"/>
+  <outline>
+    <component base="comma" xScale="-1.0" yScale="-0.5755" xOffset="264.0" yOffset="648.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025/04/02 12:51:10</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>246</integer>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

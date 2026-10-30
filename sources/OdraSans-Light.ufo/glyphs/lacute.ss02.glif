@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lacute.ss02" format="2">
+  <advance width="272"/>
+  <anchor x="202" y="0" name="bottom"/>
+  <anchor x="105" y="676" name="top"/>
+  <anchor x="137" y="704" name="top_caron"/>
+  <outline>
+    <component base="l.ss02"/>
+    <component base="acutecomb" xOffset="-190" yOffset="190"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025/04/02 12:51:10</string>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

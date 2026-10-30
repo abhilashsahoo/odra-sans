@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ohungarumlaut" format="2">
+  <advance width="785"/>
+  <unicode hex="0150"/>
+  <anchor x="399" y="0" name="bottom"/>
+  <anchor x="458" y="350" name="center"/>
+  <anchor x="547" y="10" name="ogonek"/>
+  <anchor x="516" y="700" name="top"/>
+  <anchor x="132" y="700" name="topleft"/>
+  <anchor x="899" y="700" name="topright"/>
+  <outline>
+    <component base="O"/>
+    <component base="hungarumlautcomb" xOffset="236" yOffset="200"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025/04/02 12:51:10</string>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

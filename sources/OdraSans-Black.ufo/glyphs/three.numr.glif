@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="three.numr" format="2">
+  <advance width="343"/>
+  <outline>
+    <contour>
+      <point x="179" y="273" type="curve" smooth="yes"/>
+      <point x="253" y="273"/>
+      <point x="328" y="313"/>
+      <point x="328" y="391" type="curve" smooth="yes"/>
+      <point x="328" y="464"/>
+      <point x="239" y="516"/>
+      <point x="151" y="516" type="curve" smooth="yes"/>
+      <point x="113" y="516" type="line"/>
+      <point x="113" y="440" type="line"/>
+      <point x="156" y="440" type="line" smooth="yes"/>
+      <point x="207" y="440"/>
+      <point x="204" y="419"/>
+      <point x="204" y="409" type="curve" smooth="yes"/>
+      <point x="204" y="389"/>
+      <point x="191" y="378"/>
+      <point x="171" y="378" type="curve" smooth="yes"/>
+      <point x="136" y="378"/>
+      <point x="131" y="407"/>
+      <point x="128" y="420" type="curve"/>
+      <point x="8" y="399" type="line"/>
+      <point x="17" y="313"/>
+      <point x="90" y="273"/>
+    </contour>
+    <contour>
+      <point x="113" y="469" type="line"/>
+      <point x="151" y="469" type="line" smooth="yes"/>
+      <point x="227" y="469"/>
+      <point x="323" y="503"/>
+      <point x="323" y="587" type="curve" smooth="yes"/>
+      <point x="323" y="660"/>
+      <point x="255" y="707"/>
+      <point x="173" y="707" type="curve" smooth="yes"/>
+      <point x="100" y="707"/>
+      <point x="19" y="665"/>
+      <point x="11" y="579" type="curve"/>
+      <point x="130" y="558" type="line"/>
+      <point x="133" y="592"/>
+      <point x="153" y="602"/>
+      <point x="171" y="602" type="curve" smooth="yes"/>
+      <point x="187" y="602"/>
+      <point x="200" y="590"/>
+      <point x="200" y="573" type="curve" smooth="yes"/>
+      <point x="200" y="552"/>
+      <point x="195" y="538"/>
+      <point x="156" y="538" type="curve" smooth="yes"/>
+      <point x="113" y="538" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>height</key>
+        <integer>60</integer>
+        <key>verticalShift</key>
+        <integer>280</integer>
+        <key>weight</key>
+        <integer>-300</integer>
+        <key>width</key>
+        <integer>60</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=three*.7</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=three*.7</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025/04/02 12:51:10</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

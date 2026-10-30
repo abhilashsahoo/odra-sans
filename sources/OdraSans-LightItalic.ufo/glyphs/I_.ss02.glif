@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="I.ss02" format="2">
+  <advance width="352"/>
+  <anchor x="176" y="0" name="bottom"/>
+  <anchor x="208" y="0" name="ogonek"/>
+  <anchor x="288" y="670" name="top"/>
+  <anchor x="181" y="700" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="44" y="0" type="line"/>
+      <point x="308" y="0" type="line"/>
+      <point x="318" y="58" type="line"/>
+      <point x="218" y="58" type="line"/>
+      <point x="315" y="642" type="line"/>
+      <point x="415" y="642" type="line"/>
+      <point x="425" y="700" type="line"/>
+      <point x="161" y="700" type="line"/>
+      <point x="151" y="642" type="line"/>
+      <point x="251" y="642" type="line"/>
+      <point x="154" y="58" type="line"/>
+      <point x="54" y="58" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025/04/02 12:51:10</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

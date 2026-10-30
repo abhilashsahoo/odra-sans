@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hungarumlaut" format="2">
+  <advance width="356"/>
+  <unicode hex="02DD"/>
+  <guideline x="-82" y="700" angle="0"/>
+  <guideline x="-82" y="574" angle="0"/>
+  <anchor x="236" y="500" name="_top"/>
+  <outline>
+    <component base="hungarumlautcomb" xOffset="4"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025/04/02 12:51:10</string>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,45 @@
+FONTLOG for Odra Sans
+=====================
+
+This file provides detailed information on the Odra Sans font software.
+This information should be distributed along with the Odra Sans fonts
+and any derivative works.
+
+Basic Font Information
+----------------------
+Odra Sans is a warm geometric sans-serif in seven weights (300-900) with
+matching italics, available as variable fonts (wght axis) and static
+fonts. It covers Latin, including Western and Central European languages.
+
+Odra Sans is a Modified Version of Figtree
+(https://github.com/erikdkennedy/figtree), Copyright 2022 The Figtree
+Project Authors, licensed under the SIL Open Font License 1.1. Figtree has
+no Reserved Font Name.
+
+ChangeLog
+---------
+1.000 (2026-10-30)
+- Initial release.
+- Changes from Figtree:
+  - single-storey a by default (double-storey a in ss01)
+  - x-height raised from 500 to 520 units
+  - squarer round letters (a b c d e g h m n o p q u)
+  - open single-storey g with a flat tail and an angled cut
+  - angled terminals on a c e f s t and C G J S; angled terminal on @
+  - y with a straight diagonal tail; t with a slanted top; 1 with a straight flag
+  - longer Q tail, wider R leg, reworked ampersand
+  - redrawn 4 (open top) and 7, including tabular, numerator, denominator,
+    superior and inferior forms
+  - tighter spacing and a new kerning pass
+  - italic: cursive exit strokes on a d h m n u, optically corrected rounds,
+    9.5 degree slant
+  - hinted static fonts
+
+Acknowledgements
+----------------
+N: Abhilash Sahoo
+D: Design
+
+N: The Figtree Project Authors
+W: https://github.com/erikdkennedy/figtree
+D: Original Figtree design
