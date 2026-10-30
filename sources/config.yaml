@@ -1,0 +1,10 @@
+sources:
+  - OdraSans.designspace
+  - OdraSans-Italic.designspace
+familyName: "Odra Sans"
+buildVariable: true
+buildStatic: true
+buildOTF: false
+buildWebfont: true
+autohintTTF: true
+outputDir: "../fonts"
