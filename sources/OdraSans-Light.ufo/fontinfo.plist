@@ -52,7 +52,7 @@
     <key>openTypeOS2TypoLineGap</key>
     <integer>0</integer>
     <key>openTypeOS2VendorID</key>
-    <string>UKWN</string>
+    <string>INFY</string>
     <key>openTypeOS2WinAscent</key>
     <integer>979</integer>
     <key>openTypeOS2WinDescent</key>
@@ -92,7 +92,7 @@
     <key>versionMajor</key>
     <integer>1</integer>
     <key>versionMinor</key>
-    <integer>200</integer>
+    <integer>201</integer>
     <key>xHeight</key>
     <integer>520</integer>
   </dict>

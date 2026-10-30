@@ -19,7 +19,7 @@ jobs:
           pip install gftools
           python -m venv /tmp/fb
           /tmp/fb/bin/pip install --upgrade pip
-          /tmp/fb/bin/pip install "fontbakery[googlefonts]"
+          /tmp/fb/bin/pip install "fontbakery[googlefonts]==1.1.0"
       - name: Build fonts
         run: |
           mkdir -p out
@@ -27,11 +27,14 @@ jobs:
       - name: Fontbakery (Google Fonts profile)
         run: |
           mkdir -p out/fontbakery
+          set +e
           /tmp/fb/bin/fontbakery check-googlefonts -l WARN --succinct \
             --html out/fontbakery/report.html \
             --ghmarkdown out/fontbakery/report.md \
-            fonts/variable/*.ttf || true
+            fonts/variable/*.ttf
+          rc=$?
           if [ -f out/fontbakery/report.md ]; then cat out/fontbakery/report.md >> "$GITHUB_STEP_SUMMARY"; fi
+          exit $rc
       - uses: actions/upload-artifact@v4
         if: always()
         with:

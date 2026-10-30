@@ -30,6 +30,8 @@ for p in sorted(glob.glob('sources/OdraSans-*.ufo')):
                 tr=c.transformation; c.transformation=tr._replace(dx=round(tr.dx+tr.dy*T))
     f.info.italicAngle=-9.5; f.info.styleName=(f.info.styleName+' Italic').replace('Regular Italic','Italic')
     f.info.postscriptSlantAngle=-9.5; f.info.styleMapStyleName='bold italic' if f.info.styleName=='Bold Italic' else 'italic'
+    w=f.info.styleName.replace(' Italic','').replace('Italic','')
+    f.info.styleMapFamilyName='Odra Sans' if w in ('','Bold') else 'Odra Sans '+w
     f.save(p.replace('.ufo','Italic.ufo'),overwrite=True)
 s=open('sources/OdraSans.designspace').read()
 s=re.sub(r'(OdraSans-\w+)\.ufo',r'\1Italic.ufo',s)

@@ -52,7 +52,7 @@
     <key>openTypeOS2TypoLineGap</key>
     <integer>0</integer>
     <key>openTypeOS2VendorID</key>
-    <string>UKWN</string>
+    <string>INFY</string>
     <key>openTypeOS2WinAscent</key>
     <integer>979</integer>
     <key>openTypeOS2WinDescent</key>
@@ -87,6 +87,8 @@
     <integer>-100</integer>
     <key>postscriptUnderlineThickness</key>
     <integer>50</integer>
+    <key>styleMapFamilyName</key>
+    <string>Odra Sans Light</string>
     <key>styleMapStyleName</key>
     <string>italic</string>
     <key>styleName</key>
@@ -96,7 +98,7 @@
     <key>versionMajor</key>
     <integer>1</integer>
     <key>versionMinor</key>
-    <integer>200</integer>
+    <integer>201</integer>
     <key>xHeight</key>
     <integer>520</integer>
   </dict>
