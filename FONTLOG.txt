@@ -43,3 +43,7 @@ D: Design
 N: The Figtree Project Authors
 W: https://github.com/erikdkennedy/figtree
 D: Original Figtree design
+
+
+## v1.1 (in progress)
+- True italic: f descender, exit strokes on i/l, optical-slant correction on e s b p q G S 0 3 6 8 9.
