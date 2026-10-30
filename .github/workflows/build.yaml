@@ -16,7 +16,10 @@ jobs:
       - name: Install tools
         run: |
           pip install --upgrade pip
-          pip install gftools fontbakery[googlefonts]
+          pip install gftools
+          python -m venv /tmp/fb
+          /tmp/fb/bin/pip install --upgrade pip
+          /tmp/fb/bin/pip install "fontbakery[googlefonts]"
       - name: Build fonts
         run: |
           mkdir -p out
@@ -24,12 +27,13 @@ jobs:
       - name: Fontbakery (Google Fonts profile)
         run: |
           mkdir -p out/fontbakery
-          fontbakery check-googlefonts -l WARN --succinct \
+          /tmp/fb/bin/fontbakery check-googlefonts -l WARN --succinct \
             --html out/fontbakery/report.html \
             --ghmarkdown out/fontbakery/report.md \
             fonts/variable/*.ttf || true
-          cat out/fontbakery/report.md >> "$GITHUB_STEP_SUMMARY"
+          if [ -f out/fontbakery/report.md ]; then cat out/fontbakery/report.md >> "$GITHUB_STEP_SUMMARY"; fi
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: odra-sans-fonts
           path: |
