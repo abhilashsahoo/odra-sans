@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Odra Sans Pro — specimen (0.100)</title>
+<style>
+  @font-face {
+    font-family: "Odra Sans Pro";
+    src: url("../fonts/webfonts/OdraSansPro[wght].woff2") format("woff2");
+    font-weight: 300 900;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Odra Sans Pro";
+    src: url("../fonts/webfonts/OdraSansPro-Italic[wght].woff2") format("woff2");
+    font-weight: 300 900;
+    font-style: italic;
+    font-display: swap;
+  }
+  :root {
+    --ink: #1a1814;
+    --muted: #5c574e;
+    --paper: #f3efe6;
+    --band: #e7e0d2;
+    --accent: #0f5c4c;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background:
+      radial-gradient(1200px 600px at 10% -10%, #fff8ea 0%, transparent 55%),
+      linear-gradient(180deg, var(--paper), #ebe4d6 40%, var(--paper));
+    color: var(--ink);
+    font-family: "Odra Sans Pro", system-ui, sans-serif;
+    line-height: 1.35;
+  }
+  header {
+    padding: 3.5rem 6vw 2rem;
+    border-bottom: 1px solid color-mix(in oklab, var(--ink) 12%, transparent);
+  }
+  header h1 {
+    margin: 0;
+    font-size: clamp(2.8rem, 8vw, 5.5rem);
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    line-height: 0.95;
+  }
+  header p {
+    margin: 1rem 0 0;
+    max-width: 36rem;
+    color: var(--muted);
+    font-weight: 400;
+    font-size: 1.05rem;
+  }
+  .meta {
+    margin-top: 1.25rem;
+    font-size: 0.85rem;
+    color: var(--accent);
+    font-weight: 600;
+  }
+  main { padding: 1.5rem 6vw 4rem; }
+  .row {
+    display: grid;
+    grid-template-columns: 7.5rem 1fr;
+    gap: 1rem 1.5rem;
+    padding: 1.1rem 0;
+    border-bottom: 1px solid color-mix(in oklab, var(--ink) 10%, transparent);
+    align-items: baseline;
+  }
+  .row .label {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--muted);
+    letter-spacing: 0.02em;
+  }
+  .row .sample {
+    font-size: clamp(1.35rem, 2.6vw, 2rem);
+    letter-spacing: -0.015em;
+  }
+  .row .sample em {
+    font-style: italic;
+    margin-left: 0.75rem;
+    color: color-mix(in oklab, var(--ink) 82%, var(--accent));
+  }
+  .note {
+    margin-top: 2.5rem;
+    padding: 1.25rem 1.4rem;
+    background: var(--band);
+    font-size: 0.95rem;
+    color: var(--muted);
+    max-width: 42rem;
+  }
+  .note strong { color: var(--ink); font-weight: 650; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Odra Sans Pro</h1>
+  <p>Warm geometric sans — Pro scaffold v0.100. Every shipped weight, upright and italic.</p>
+  <div class="meta">wght 300–900 · variable + static · ttfautohint · OFL</div>
+</header>
+<main id="weights"></main>
+<script>
+  const weights = [
+    { name: "Light", w: 300 },
+    { name: "Regular", w: 400 },
+    { name: "Medium", w: 500 },
+    { name: "SemiBold", w: 600 },
+    { name: "Bold", w: 700 },
+    { name: "ExtraBold", w: 800 },
+    { name: "Black", w: 900 },
+  ];
+  const pangram = "The quick brown fox jumps over the lazy dog";
+  const figures = "0123456789 €£¥ — Hamburgefonstiv";
+  const root = document.getElementById("weights");
+  for (const { name, w } of weights) {
+    const row = document.createElement("div");
+    row.className = "row";
+    row.innerHTML = `
+      <div class="label">${name}<br>${w}</div>
+      <div class="sample" style="font-weight:${w}">
+        ${pangram}<br>
+        <span style="font-size:0.85em;opacity:0.9">${figures}</span>
+        <em style="font-weight:${w}">${pangram}</em>
+      </div>`;
+    root.appendChild(row);
+  }
+  const note = document.createElement("div");
+  note.className = "note";
+  note.innerHTML = `<strong>Thin (100) and ExtraLight (200)</strong> are planned but not in 0.100 —
+    they need drawn masters (the source designspace only covers 300–900). See README / FONTLOG.`;
+  root.appendChild(note);
+</script>
+</body>
+</html>

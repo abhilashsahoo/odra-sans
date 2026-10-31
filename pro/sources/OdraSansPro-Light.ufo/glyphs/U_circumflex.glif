@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ucircumflex" format="2">
+  <advance width="697"/>
+  <unicode hex="00DB"/>
+  <guideline x="253" y="766" angle="0"/>
+  <anchor x="355" y="0" name="bottom"/>
+  <anchor x="536" y="50" name="ogonek"/>
+  <anchor x="355" y="670" name="top"/>
+  <anchor x="669" y="700" name="topright"/>
+  <outline>
+    <component base="U"/>
+    <component base="circumflexcomb" xOffset="186" yOffset="170"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025/04/02 12:51:10</string>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

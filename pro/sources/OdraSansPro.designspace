@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="5.0">
+  <!--
+    Weight axis: masters at Light (300) and Black (900), same as Figtree / Odra Sans.
+    Thin (100) and ExtraLight (200) need drawn masters — see README / FONTLOG.
+    Axis range stays 300–900 until those masters exist (extrapolation is not shipped).
+  -->
+  <axes>
+    <axis tag="wght" name="Weight" minimum="300" maximum="900" default="300">
+      <map input="300" output="300"/>
+      <map input="400" output="400"/>
+      <map input="500" output="472"/>
+      <map input="600" output="558"/>
+      <map input="700" output="660"/>
+      <map input="800" output="780"/>
+      <map input="900" output="900"/>
+      <!-- Planned once Thin masters are drawn:
+      <map input="100" output="100"/>
+      <map input="200" output="200"/>
+      and axis minimum="100"
+      -->
+    </axis>
+  </axes>
+  <rules>
+    <rule name="BRACKET.Weight_550_900">
+      <conditionset>
+        <condition name="Weight" minimum="550" maximum="900"/>
+      </conditionset>
+      <sub name="dollar" with="dollar.BRACKET.varAlt01"/>
+    </rule>
+  </rules>
+  <sources>
+    <source filename="OdraSansPro-Light.ufo" name="Odra Sans Pro Light" familyname="Odra Sans Pro" stylename="Light">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+      </location>
+    </source>
+    <source filename="OdraSansPro-Light.ufo" name="Odra Sans Pro Light {660}" layer="{660}">
+      <location>
+        <dimension name="Weight" xvalue="660"/>
+      </location>
+    </source>
+    <source filename="OdraSansPro-Black.ufo" name="Odra Sans Pro Black" familyname="Odra Sans Pro" stylename="Black">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Odra Sans Pro Light" familyname="Odra Sans Pro" stylename="Light" filename="instance_ufos/OdraSansPro-Light.ufo">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+      </location>
+    </instance>
+    <instance name="Odra Sans Pro Regular" familyname="Odra Sans Pro" stylename="Regular" filename="instance_ufos/OdraSansPro-Regular.ufo">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+      </location>
+    </instance>
+    <instance name="Odra Sans Pro Medium" familyname="Odra Sans Pro" stylename="Medium" filename="instance_ufos/OdraSansPro-Medium.ufo">
+      <location>
+        <dimension name="Weight" xvalue="472"/>
+      </location>
+    </instance>
+    <instance name="Odra Sans Pro SemiBold" familyname="Odra Sans Pro" stylename="SemiBold" filename="instance_ufos/OdraSansPro-SemiBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="558"/>
+      </location>
+    </instance>
+    <instance name="Odra Sans Pro Bold" familyname="Odra Sans Pro" stylename="Bold" filename="instance_ufos/OdraSansPro-Bold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="660"/>
+      </location>
+    </instance>
+    <instance name="Odra Sans Pro ExtraBold" familyname="Odra Sans Pro" stylename="ExtraBold" filename="instance_ufos/OdraSansPro-ExtraBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="780"/>
+      </location>
+    </instance>
+    <instance name="Odra Sans Pro Black" familyname="Odra Sans Pro" stylename="Black" filename="instance_ufos/OdraSansPro-Black.ufo">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+      </location>
+    </instance>
+  </instances>
+</designspace>

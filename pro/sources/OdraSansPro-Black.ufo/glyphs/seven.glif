@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seven" format="2">
+  <advance width="561"/>
+  <unicode hex="0037"/>
+  <outline>
+    <contour>
+      <point x="138" y="69" type="line"/>
+      <point x="292" y="0" type="line"/>
+      <point x="537" y="543" type="line"/>
+      <point x="537" y="700" type="line"/>
+      <point x="19" y="700" type="line"/>
+      <point x="19" y="543" type="line"/>
+      <point x="352" y="543" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025/04/02 13:03:07</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

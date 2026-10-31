@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="U" format="2">
+  <advance width="697"/>
+  <unicode hex="0055"/>
+  <anchor x="349" y="0" name="bottom"/>
+  <anchor x="530" y="50" name="ogonek"/>
+  <anchor x="349" y="670" name="top"/>
+  <anchor x="663" y="700" name="topright"/>
+  <outline>
+    <contour>
+      <point x="346" y="-16" type="curve" smooth="yes"/>
+      <point x="502" y="-16"/>
+      <point x="613" y="92"/>
+      <point x="613" y="245" type="curve" smooth="yes"/>
+      <point x="613" y="700" type="line"/>
+      <point x="549" y="700" type="line"/>
+      <point x="549" y="245" type="line" smooth="yes"/>
+      <point x="549" y="126"/>
+      <point x="466" y="42"/>
+      <point x="348" y="42" type="curve" smooth="yes"/>
+      <point x="231" y="42"/>
+      <point x="148" y="126"/>
+      <point x="148" y="245" type="curve" smooth="yes"/>
+      <point x="148" y="700" type="line"/>
+      <point x="84" y="700" type="line"/>
+      <point x="84" y="245" type="line" smooth="yes"/>
+      <point x="84" y="92"/>
+      <point x="193" y="-16"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=I-10</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=I-10</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025/04/02 12:51:10</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

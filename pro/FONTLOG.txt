@@ -1,0 +1,60 @@
+FONTLOG for Odra Sans Pro
+=========================
+
+This file provides detailed information on the Odra Sans Pro Font Software.
+This information should be distributed along with the Odra Sans Pro fonts
+and any derivative works.
+
+Basic Font Information
+----------------------
+Odra Sans Pro is the expanded Pro line of Odra Sans: a warm geometric
+sans-serif for screens, interfaces and brands. Version 0.100 ships seven
+weights (Light 300 through Black 900), each with a matching italic, as
+variable fonts (wght axis; ital via a linked roman/italic pair) and static
+TTF / WOFF2 builds with ttfautohint and gasp table settings.
+
+Odra Sans Pro is a Modified Version of Odra Sans (itself a Modified Version
+of Figtree, https://github.com/erikdkennedy/figtree). Copyright 2022 The
+Figtree Project Authors; Copyright 2026 The Odra Sans / Odra Sans Pro
+Project Authors. Licensed under the SIL Open Font License 1.1. Figtree has
+no Reserved Font Name. Font family and file names use "Odra Sans Pro" /
+"OdraSansPro" only — "Figtree" does not appear in name tables except in
+the required copyright / OFL notice.
+
+Planned weights (design step)
+-----------------------------
+Figtree's and Odra Sans's variable sources only cover wght 300–900, with
+masters at Light and Black. Thin (100) and ExtraLight (200) cannot be
+built reproducibly at shipping quality by extrapolating those masters:
+outlines distort and counters collapse. Adding them requires drawing new
+Thin (and preferably ExtraLight) upright masters, regenerating italics,
+extending the designspace axis minimum to 100, and adding instances.
+Until then the Pro axis remains 300–900. See README.md.
+
+ChangeLog
+---------
+0.100 (2026-10-31)
+- Initial Odra Sans Pro scaffold under pro/ (does not modify the Odra Sans
+  v1.202 release tree).
+- Renamed family, style, PostScript and file names to Odra Sans Pro /
+  OdraSansPro.
+- Variable fonts: OdraSansPro[wght].ttf and OdraSansPro-Italic[wght].ttf
+  with STAT ital linking (no separate slnt axis; true italic from shear +
+  italic mods, matching Odra Sans).
+- Static instances for Light…Black + italics; WOFF2 for static and variable.
+- Screen hinting: ttfautohint (stem-width-mode=qsq) on static TTFs; gasp
+  table set for symmetric gridfit/smoothing.
+- Version set to 0.100.
+- Documented Thin/ExtraLight as a required design step (not extrapolated).
+
+Acknowledgements
+----------------
+N: Abhilash Sahoo
+D: Design
+
+N: The Figtree Project Authors
+W: https://github.com/erikdkennedy/figtree
+D: Original Figtree design
+
+N: The Odra Sans Project Authors
+D: Odra Sans modifications from which Pro is derived
